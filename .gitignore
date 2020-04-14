@@ -1,0 +1,29 @@
+# Application
+docroot/content/upgrade
+docroot/content/uploads
+
+# WordPress
+docroot/.htaccess
+wp-config.php
+
+# WP-CLI
+db-sync
+sql-dump-*.sql
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Vendor (e.g. Composer)
+!vendor/.gitkeep
+
+# Node Package Manager
+node_modules
+
+# DDEV
+.ddev
+.ddev/docker-compose.yaml
+wp-config-ddev.php
+
+.DS_Store
